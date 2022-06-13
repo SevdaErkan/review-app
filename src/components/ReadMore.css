@@ -1,0 +1,10 @@
+.text {
+  display: inline-block;
+  width: 100%;
+  color: lightslategray;
+}
+
+.text > .read-or-hide {
+  color: rgb(54, 93, 155);
+  cursor: pointer;
+}

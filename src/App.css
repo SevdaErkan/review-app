@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: lightslategrey;
+}
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  /* border:1px solid;
+  margin-top:0px; */
+}
+header {
+  background-color: rgb(63, 106, 185);
+
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 0px;
+}
+
+.dd_list {
+  box-shadow: 2px 2px 3px rgb(113, 134, 141);
+  width: 60px;
+  position: absolute;
+  right: 10px;
+  top: 45px;
+}
+.dd_list > li {
+  list-style-type: none;
+}
+.dd_list > li > button {
+  border: transparent;
+  padding: 5px 10px;
+  width: 100%;
+  cursor: pointer;
+  background-color: rgb(196, 217, 224);
+}
+.dd_list > li > button:hover {
+  background-color: lightcyan;
+}
